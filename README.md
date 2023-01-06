@@ -5,3 +5,4 @@ This is a simple code quiz, it has a total of 5 questions with a time limit of 4
 The final score is equal to the seconds left in the timer.
 
 Try to answer correctly the following coding questions and test your knowledge!
+https://angelflores27.github.io/Quiz-App/
