@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./Assets/style.css">
+    <title>Code Quiz</title>
+</head>
+<header>
+    <h1> Code Quiz</h1>
+</header>
+<nav>
+    <div class="scoreboard-btn">
+        <button id="score-btn">scoreboard</button>
+    </div>
+    <div class="Timer">
+       <p id="countdown">04:00</p>
+
+    </div>
+</nav>
+<body>
+    <div class="container">
+        <div id="question-container" class="hide">
+            <div id="question"> lol </div>
+                <div id="answers-btn" class="btn-grid">
+                <button class="btn"> Answer 1 </button>
+                <button class="btn"> Answer 2 </button>
+                <button class="btn"> Answer 3 </button>
+                <button class="btn"> Answer 4 </button>
+            </div>
+        </div>
+        <div class="control">
+            <button id="start-btn" class="start-btn btn"> Start quiz</button>
+            <button id="next-btn" class="next-btn btn hide"> Next</button>
+           
+            
+        </div>
+        <div class="results-btn-ctn">
+            <button id="results-btn" class="results-btn btn hide"> Results</button>
+        </div>
+       <div class="submission-ctn">
+            <div id="submission" class="submission hide">
+                <h2>Your results</h2>
+                <p id="timeleft"></p>
+                <div class="inputGroup">
+                    <label for="first-name">Name</label>
+                    <input type="text" name="first-name" id="fist-name" placeholder="Your name" />
+                </div>
+                <button id="submit-btn">Submit</button>
+            </div>    
+        </div>
+    </div>
+   
+<script src="./Assets/javascript.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,88 @@
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+    padding:  25px;
+    background-color: blueviolet;
+}
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:  25px;
+    width: 100vw;
+}
+body {
+    padding: 0%;
+    margin: 0%;
+}
+.container {
+    display: flex;
+    padding: 5%;
+    margin: 30px;
+    justify-content: center;
+}
+#question {
+    display: flex;
+    justify-content: center;
+    margin: 1.5%;
+    font-weight: bolder;
+    font-size: x-large;
+}
+#answers-btn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px;
+    
+}
+#start-btn {
+    font-weight: bolder;
+    font-size: 1.5rem 
+}
+#start-btn-2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+#next-btn {
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+#submit-btn{
+    margin: 10px;
+}
+button {
+    display: flex;
+    color: antiquewhite;
+    background-color: blueviolet;
+    border-color: blueviolet;
+    margin: 3px;
+    padding: 5px;  
+    border-radius: 5px;
+    font-size: large;
+}
+
+button:hover {
+    border-color: cyan;
+    cursor: pointer;
+}
+
+.btn.correct {
+    background-color: greenyellow;
+    color: black;
+}
+.btn.wrong {
+    background-color: red;
+}
+
+.hide{
+    display: none;
+}
+
